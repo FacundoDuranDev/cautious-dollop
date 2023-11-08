@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listando registros de la base</title>
+</head>
+<body>
+    <h1>Los registros de tu base de datos son los siguientes:</h1>
+    {% for registro in registros %}
+        <ul>{{registro}}</ul>
+    {% endfor %}
+</body>
+</html>
